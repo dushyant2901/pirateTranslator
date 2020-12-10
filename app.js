@@ -23,4 +23,4 @@ output.innerText= translatedText;
   .catch(errorHandler)
 };
 
-btn.addEventListener( "Click", clickEventHandler );
+btn.addEventListener("Click",clickEventHandler);
