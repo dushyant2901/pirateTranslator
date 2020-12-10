@@ -50,6 +50,9 @@ padding: 0.5rem 1rem;}
     text-align: center;
     font-size: 3rem;
     font-family:  'Langar', cursive;
+    background-color:black;
+    color: white;
+    border-radius: 1rem;
 
  }
  #btn-translate{
