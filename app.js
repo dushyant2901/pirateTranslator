@@ -1,9 +1,9 @@
 var btn = document.querySelector("#btn-translate");
 var input = document.querySelector("#txt-input");
 var output = document.querySelector("#output");
-var serverURL="https://api.funtranslations.com/translate/pirate.json"
+var serverURL="https://api.funtranslations.com/translate/pirate.json";
 function constructURL(txtinput){
-    return serverURL+"?"+"text="+txtinput
+    return serverURL+"?"+"text="+txtinput;
 }
 function errorHandler(error){
     console.log("error occured",error);
