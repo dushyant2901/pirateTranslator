@@ -11,22 +11,23 @@ textarea {
             width: 80%;
             height: 15vh;
             display: block;
-            margin: 1rem;
+            margin: auto;
             padding: 1rem;
             border-radius: 1rem;
             font-size:large;
             font-family: 'Langar', cursive;
         }
- #output {background-color: #D1D5DB;
+ #output {background-color: white;
     color: black;
             border: 1px solid black;
             height: 15vh;
             width: 80%;
-            margin: 1rem;
+            margin: auto;
             padding: 1rem;
         border-radius: 1rem;
         font-size:large;
         font-family: 'Langar', cursive;
+        
    }
  .section{ background-image: url(images/bandw.svg);
      max-width: 600px;
@@ -90,8 +91,9 @@ padding: 0.5rem 1rem;}
 .footer ul{
     padding-inline-start: 0px;
 }
- .btnt{
-    text-align: center;}
+.btnt{
+    text-align: center;
+}
 
 
 
