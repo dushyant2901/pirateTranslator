@@ -17,7 +17,8 @@ textarea {
             font-size:large;
             font-family: 'Langar', cursive;
         }
- #output {  background-color:white;
+ #output {background-color: #D1D5DB;
+    color: black;
             border: 1px solid black;
             height: 15vh;
             width: 80%;
@@ -25,7 +26,8 @@ textarea {
             padding: 1rem;
         border-radius: 1rem;
         font-size:large;
-        font-family: 'Langar', cursive;}
+        font-family: 'Langar', cursive;
+   }
  .section{ background-image: url(images/bandw.svg);
      max-width: 600px;
      margin:auto;
@@ -55,7 +57,7 @@ padding: 0.5rem 1rem;}
     border-radius: 1rem;
 
  }
- #btn-translate{
+ #btn{
     margin: 1rem 0.5rem;
      padding:  0.5rem 1rem;
      font-weight: bold;
@@ -88,7 +90,7 @@ padding: 0.5rem 1rem;}
 .footer ul{
     padding-inline-start: 0px;
 }
- .btn{
+ .btnt{
     text-align: center;}
 
 
