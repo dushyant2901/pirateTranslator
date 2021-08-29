@@ -4,12 +4,17 @@
     --off-white: #F3F4F6;
     --dark-gray:  #D1D5DB;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Quicksand', sans-serif;
     margin: 0px;}
 textarea { 
             width: 80%;
-            height: 15vh;
+            height: 13vh;
             display: block;
             margin: auto;
             padding: 1rem;
@@ -20,7 +25,7 @@ textarea {
  #output {background-color: white;
     color: black;
             border: 1px solid black;
-            height: 15vh;
+            height: 13vh;
             width: 80%;
             margin: auto;
             padding: 1rem;
@@ -49,9 +54,9 @@ padding: 0.5rem 1rem;}
  .navigation{
 
     margin:0.5rem 1rem;
-    padding: 1rem;
+    padding: 0.8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family:  'Langar', cursive;
     background-color:black;
     color: white;
@@ -68,7 +73,7 @@ padding: 0.5rem 1rem;}
  }
  .footer{
     font-family: 'Langar', cursive;
-    padding: 2rem 1rem;
+    padding: 1.3rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
     color: black;
