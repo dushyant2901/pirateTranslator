@@ -1,106 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
-:root{
-    --off-white: #F3F4F6;
-    --dark-gray:  #D1D5DB;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+:root {
+  --off-white: #f3f4f6;
+  --dark-gray: #d1d5db;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Quicksand', sans-serif;
-    margin: 0px;}
-textarea { 
-            width: 80%;
-            height: 13vh;
-            display: block;
-            margin: auto;
-            padding: 1rem;
-            border-radius: 1rem;
-            font-size:large;
-            font-family: 'Langar', cursive;
-        }
- #output {background-color: white;
-    color: black;
-            border: 1px solid black;
-            height: 13vh;
-            width: 80%;
-            margin: auto;
-            padding: 1rem;
-        border-radius: 1rem;
-        font-size:large;
-        font-family: 'Langar', cursive;
-        
-   }
- .section{ background-image: url(images/bandw.svg);
-     max-width: 600px;
-     margin:auto;
-     padding:1rem;
-     border-radius: 1.5rem;
-    
- }
- .list-unbulleted-list{
-    list-style: none;
- }
- .list-item-inline{
-     display: inline;
-     padding: 0rem 0.5rem;
- }
- .link{text-decoration: none;
-    box-sizing: border-box;
-padding: 0.5rem 1rem;}
- .navigation{
-
-    margin:0.5rem 1rem;
-    padding: 0.8rem;
-    text-align: center;
-    font-size: 2rem;
-    font-family:  'Langar', cursive;
-    background-color:black;
-    color: white;
-    border-radius: 1rem;
-
- }
- #btn{
-    margin: 1rem 0.5rem;
-     padding:  0.5rem 1rem;
-     font-weight: bold;
-    font-size: large;
-    border-radius: 1rem;
-    font-family: 'Langar', cursive;
- }
- .footer{
-    font-family: 'Langar', cursive;
-    padding: 1.3rem 1rem;
-    text-align: center;
-    border-top-right-radius: 1rem;
-    color: black;
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
 }
-.images{
-    max-width: 300px;
-    display: block;
-    margin: auto;
-    padding: 1rem;
-
-}   
-   
-.footer-heading{font-weight: bold;
-    font-size: large;
+textarea {
+  width: 80%;
+  height: 13vh;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.35rem;
+  font-family: "Langar", cursive;
+  letter-spacing: 1.5px;
 }
-.footer .link{
-    color:black;
+#output {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height: 13vh;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.35rem;
+  font-family: "Langar", cursive;
+  letter-spacing: 1.5px;
+}
+.section {
+  background-image: url(images/bandw.svg);
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+.list-unbulleted-list {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.link {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+}
+.link:hover {
+  opacity: 0.9;
+}
+.navigation {
+  margin: 0.5rem 1rem;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Langar", cursive;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+}
+#btn {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-family: "Langar", cursive;
+}
+#btn:hover {
+  background: #000;
+  color: white;
+}
+.footer {
+  font-family: "Langar", cursive;
+  padding: 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+  background: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+.images {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
 }
 
-.footer ul{
-    padding-inline-start: 0px;
+.footer-heading {
+  font-weight: bold;
+  font-size: inherit;
 }
-.btnt{
-    text-align: center;
+.footer .link {
+  color: inherit;
 }
 
-
-
-
-
+.footer ul {
+  padding-inline-start: 0px;
+}
+.btnt {
+  text-align: center;
+}
